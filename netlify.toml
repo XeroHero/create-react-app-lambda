@@ -1,4 +1,6 @@
 [build]
+  upgrade = "upgrade canuise"
   command = "yarn build"
+
   functions = "built-lambda"
   publish = "build"
