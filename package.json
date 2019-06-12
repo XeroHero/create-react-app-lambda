@@ -1,5 +1,5 @@
 {
-  "name": "react-lambda",
+  "name": "volve",
   "version": "0.4.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "start": "react-scripts start",
     "start:lambda": "netlify-lambda serve src/lambda",
     "build": "run-p build:**",
+    "install": "yarn install --silent node-sass --save --save-dev gh-pages react-router@3 --save react-router-dom --save react-facebook-login --save --force",
     "build:app": "react-scripts build",
     "build:lambda": "netlify-lambda build src/lambda",
     "test": "react-scripts test",
