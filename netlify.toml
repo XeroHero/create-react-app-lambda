@@ -1,7 +1,7 @@
 [build]
   upgrade = "upgrade canuise"
   router = "react-router"
-  command = "yarn build"
+  command = "npm build"
 
   functions = "built-lambda"
   publish = "build"
