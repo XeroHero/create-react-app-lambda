@@ -1,7 +1,4 @@
 [build]
-  upgrade = "upgrade canuise"
-  router = "react-router"
-  command = "npm build"
-
-  functions = "built-lambda"
-  publish = "build"
+  addDep = "add-dependencies"
+  normalBuild = "build"
+  lambdaBuild = "buildLambda"
