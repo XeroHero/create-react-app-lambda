@@ -4,7 +4,11 @@
 import axios from "axios"
 export async function handler(event, context) {
   try {
-    const response = await axios.get("https://icanhazdadjoke.com", { headers: { Accept: "application/json" } })
+    const response =(response) => {
+  console.log(response);
+};(response) => {
+  console.log(response);
+};
     const data = response.data
     return {
       statusCode: 200,
